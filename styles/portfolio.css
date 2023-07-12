@@ -1,4 +1,6 @@
-/* Common Style Starts */
+/*======================= 
+ Common Style Starts here 
+=========================*/
 :root{
      --text-primary: #FD6E0A;
      --title: #181818;
@@ -37,12 +39,21 @@ section{
     font-weight: 400;
     line-height: 30px;
 }
-/* Header & Banner Style Here */
+/*===================== 
+ Common Style Ends here 
+=======================*/
+
+
+/*================================ 
+ Header & Banner Style starts Here 
+==================================*/
 .header{
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right , top 2px left 10px;
+    background-size: auto, contain;
+    /* background-size: ; */
 }
 nav{
     display: flex;
@@ -79,7 +90,13 @@ nav{
     font-weight: 700;    
     border: 0;
 }
-/* banner style here */
+/*============================== 
+ Header & Banner Style ends Here 
+================================*/
+
+/*======================= 
+ banner style Starts here 
+=========================*/
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -129,7 +146,13 @@ nav{
 .banner_img{
     width: 500px;
 }
-/* aboute style here */
+/*===================== 
+ banner style ends here 
+=======================*/
+
+/*================================= 
+ aboute & sckills style Starts here 
+===================================*/
 #about{
     padding: 80px;
     margin: 80px auto 0;
@@ -190,7 +213,13 @@ nav{
 #i_doo> .sec_pera{
     padding: 30px 130px 50px;
 }
-/*  Resumi Style Hear  */
+/*=============================== 
+ aboute & sckills style ends here 
+=================================*/
+
+/*=============================== 
+ Resumi section Style Starts here 
+=================================*/
 #resumi{
     padding: 130px 0 0;
 }
@@ -228,7 +257,13 @@ nav{
     text-align: center;
     margin-top: 50px;
 }
-/* Footer Style Here */
+/*============================= 
+ Resumi section Style Ends here 
+===============================*/
+
+/*=============================== 
+ footer section Style Starts here 
+=================================*/
 footer{
     display: flex;
     gap: 120px;
@@ -282,3 +317,6 @@ footer{
     font-size: 20px;
     font-weight: 700;
 }
+/*============================= 
+ footer section Style ends here 
+===============================*/
